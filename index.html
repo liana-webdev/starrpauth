@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star RP Авторизация</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="border">
+      <div id="form-name">
+        <h1 id="form-title">Авторизация</h1>
+      </div>
+      <div class="container">
+
+        <!-- Форма для входа существующего пользователя -->
+        <form style="display: block;" id="loginForm">
+          <h1 class="title">
+            Добро пожаловать в<br>
+            <span>STAR RolePlay</span>
+          </h1>
+
+          <div class="input"><img src="./img/icons/user.svg" alt="">
+            <input type="username" placeholder="Логин">
+          </div>
+          <div class="input"><img src="./img/icons/lock.svg" alt="">
+            <input type="password" placeholder="Пароль">
+          </div>
+
+
+          <button class="main-button btn-signin">
+            <img class="main-btn" src="./img/1x/Asset 1.png">
+            <p>Войти</p>
+            <img class="i" src="./img/icons/double-arrow.svg">
+          </button>
+          <div class="sub-buttons">
+            <button class="sub-btn btn-recovery" style="margin-right: 0.5vw;">
+              <img class="main-btn" src="./img/1x/Asset 3.png">
+
+              <p>Сброс</p>
+            </button>
+            <button class="sub-btn btn-rego" style="margin-left: 0.5vw;">
+              <img class="main-btn" src="./img/1x/Asset 4.png">
+
+              <p>Регистрация</p>
+            </button>
+          </div>
+        </form>
+
+
+        <!-- Форма для регистрации пользователя -->
+        <form style="display: none;" id="registrationForm">
+          <h1 class="title">
+            Добро пожаловать в<br>
+            <span>STAR RolePlay</span>
+          </h1>
+
+          <div class="input"><img src="./img/icons/user.svg" alt="">
+            <input type="username" placeholder="Придумайте логин">
+          </div>
+          <div class="input"><img src="./img/icons/email.svg" alt="">
+            <input type="email" placeholder="Укажите почту">
+          </div>
+          <div class="input"><img src="./img/icons/lock.svg" alt="">
+            <input type="password" placeholder="Пароль">
+          </div>
+          <div class="input"><img src="./img/icons/lock.svg" alt="">
+            <input type="password" placeholder="Подтвердите пароль">
+          </div>
+
+
+          <button class="main-button btn-signup">
+            <img class="main-btn" src="./img/1x/Asset 1.png">
+            <p>Зарегистрироваться</p>
+            <img class="i" src="./img/icons/double-arrow.svg">
+          </button>
+          <div class="sub-buttons">
+            <button class="sub-btn btn-recovery" style="margin-right: 0.5vw;">
+              <img class="main-btn" src="./img/1x/Asset 3.png">
+
+              <p>Сброс</p>
+
+            </button>
+            <button class="sub-btn btn-login" style="margin-left: 0.5vw;">
+              <img class="main-btn" src="./img/1x/Asset 4.png">
+
+              <p>Войти</p>
+
+            </button>
+          </div>
+        </form>
+
+        <!-- Форма для сброса пароля -->
+        <form style="display: none;" id="recoveryForm">
+          <h1 class="title">
+            Добро пожаловать в<br>
+            <span>STAR RolePlay</span>
+          </h1>
+
+          <div class="input"><img src="./img/icons/email.svg" alt="">
+            <input type="email" placeholder="Почта">
+          </div>
+          <div class="text">
+            <p>Укажите почту, указанную вами при регистрации.
+              Вам будет отправлено письмо с инструкциями для сброса пароля.</p>
+          </div>
+
+
+          <button class="main-button btn-recover">
+            <img class="main-btn" src="./img/1x/Asset 1.png">
+            <p>Сбросить пароль</p>
+            <img class="i" src="./img/icons/double-arrow.svg">
+          </button>
+          <div class="sub-buttons">
+            <button class="sub-btn btn-login" style="margin-right: 0.5vw;">
+              <img class="main-btn" src="./img/1x/Asset 3.png">
+
+              <p>Назад</p>
+
+            </button>
+            <button class="sub-btn btn-rego" style="margin-left: 0.5vw;">
+              <img class="main-btn" src="./img/1x/Asset 4.png">
+
+              <p>Регистрация</p>
+
+            </button>
+          </div>
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <img class="trevor" id="module-hotjar" src="./img/Trevor.png">
+  <img class="girl" id="module-hotjar" src="./img/SomeGirl.png">
+
+
+
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
